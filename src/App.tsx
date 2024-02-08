@@ -82,7 +82,7 @@ const App: React.FC = () => {
           </div>
         </div>
         <div className="mt-8 flex justify-center text-lg text-black">
-          <button onClick={handleRefreshClick} type="submit" className="rounded-3xl bg-lime-500  px-10 py-2 text-white shadow-xl backdrop-blur-md transition-colors duration-300 hover:bg-lime-700">Refresh</button>
+          <div onClick={handleRefreshClick}  className="rounded-3xl bg-lime-500  px-10 py-2 text-white shadow-xl backdrop-blur-md transition-colors duration-300 hover:bg-lime-700">Refresh</div>
         </div>
       </form>
     </div>
