@@ -3,17 +3,17 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://eastvantage.com/wp-content/uploads/2023/10/EV_LOGO-GREEN-GREY-e1697656723953-300x63.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://eastvantage.com/wp-content/uploads/2023/10/EV_LOGO-GREEN-GREY-e1697656723953-300x63.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://eastvantage.com/wp-content/uploads/2023/10/EV_LOGO-GREEN-GREY-e1697656723953-300x63.png",
       "type": "image/png",
       "sizes": "512x512"
     }
