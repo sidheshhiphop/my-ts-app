@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import UserData from './Interface/UserInterface';
-
-const App: React.FC = () => {
+function App() {
   const [userData, setUserData] = useState<UserData | null>(null);
 
   useEffect(() => {
@@ -42,6 +41,7 @@ const App: React.FC = () => {
 
   return (
     <div>
+       <div>
       
       {userData ? (
         <div>
@@ -95,7 +95,8 @@ const App: React.FC = () => {
       )}
      
     </div>
-  );
-};
+    </div>
+  )
+}
 
-export default App;
+export default App
