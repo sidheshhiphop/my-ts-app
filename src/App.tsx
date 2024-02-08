@@ -46,7 +46,7 @@ const App: React.FC = () => {
       {userData ? (
         <div>
           <div className="flex h-screen w-full items-center justify-center bg-gray-900 bg-cover bg-no-repeat" >
-  <div className="rounded-xl  w-2/5 bg-gray-800 bg-opacity-50 px-16 py-10 shadow-lg backdrop-blur-md max-sm:px-8">
+  <div className="rounded-xl  lg:w-2/5 bg-gray-800 bg-opacity-50 lg:px-16 lg:py-10 shadow-lg backdrop-blur-md max-sm:px-8">
     <div className="text-white">
       <div className="mb-8 flex flex-col items-center">
         <img src="https://eastvantage.com/wp-content/uploads/2023/10/EV_LOGO-GREEN-GREY-e1697656723953-300x63.png" width="150" alt=""  />
